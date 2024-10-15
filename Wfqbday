@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Wafiq Octaviani</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            padding: 40px;
+            margin-top: 50px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+        h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        button {
+            padding: 12px 24px;
+            background-color: #ffcc00;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #e6b800;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday, Wafiq Octaviani</h1>
+        <img src="https://drive.google.com/uc?export=view&id=1q1fzGkwaEnDMaOyvN6oI-FkC0GI8f4L2" alt="Wafiq Octaviani">
+        <p>Dear Wafiq,</p>
+        <p>16 Oktober selalu jadi hari yang istimewa, bukan hanya karena itu ulang tahun seseorang, tapi karena setiap tahunnya aku diingatkan betapa berharganya seseorang yang hadir dalam hidupku sejak kecil—yaitu kamu, Wafiq. <strong>My first love 🥳</strong></p>
+        <p>Bangga melihat Wafiq yang sekarang; penuh kekuatan, ketangguhan, dan kelembutan. Life might throw its challenges, but I believe you can handle them all. My biggest wish is for you to always find joy and peace in whatever path you choose.</p>
+        <p>Maaf kalau selama ini aku belum bisa jadi pendukung yang sempurna. But please remember, no matter what, I am always here for you. My heart is with you, supporting you, wishing for your happiness, and forever cheering you on. You deserve all the love and happiness this world has to offer, and I hope to always be a part of that journey.</p>
+        <button onclick="playSong()">Play Birthday Song</button>
+    </div>
+
+    <audio id="song" src="https://drive.google.com/uc?export=download&id=1q1nUVP14vH4U5BiMovJJhpMidfS7z2Xv"></audio>
+
+    <script>
+        function playSong() {
+            document.getElementById("song").play();
+        }
+    </script>
+</body>
+</html>
